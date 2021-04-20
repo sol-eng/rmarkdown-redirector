@@ -12,3 +12,8 @@ content](https://blog.rstudio.com/2019/06/24/rstudio-connect-1-7-6/)!
 ```
 REDIRECT_URL=/other-droids/
 ```
+
+## NEWS
+
+- 2021-04-20 - BREAKING - switch "main" content to the `rmd/` subdirectory, as
+we now have a `shiny/` variant as well
