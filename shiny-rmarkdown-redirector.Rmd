@@ -1,0 +1,15 @@
+---
+title: "rmarkdown-redirector"
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<head>
+  <meta
+    http-equiv='refresh'
+    content='0; URL=`r Sys.getenv("REDIRECT_URL")`'
+  >
+</head>
